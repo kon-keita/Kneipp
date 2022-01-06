@@ -1,0 +1,347 @@
+@charset "utf-8";
+
+@import url("https://fonts.googleapis.com/css2?family = Noto+Serif+JP:wght @200;300;400;500;600& display = swap");
+
+*{
+  margin: 0;
+  padding: 0:
+}
+
+header{
+  background-image:url(header_pi/bathroom-gfde0a1d93_1280.png);
+  height: 800px;
+}
+.header1{
+  position: absolute;
+  left: 180px;
+  top: 20px;
+}
+.header2{
+  width: 600px;
+  height: auto;
+  position: absolute;
+  left: 370px;
+  top: 90px;
+}
+.header3{
+width: 400px;
+height: auto;
+position: absolute;
+left: 420px;
+bottom: 210px;
+}
+.header4{
+  width: 90px;
+  height: auto;
+  position: absolute;
+  right: 440px;
+  bottom: 255px;
+}
+.header5{
+  position: absolute;
+  right: 355px;
+  bottom: 255px;
+}
+
+/* -------------------------------------- */
+.syoukai1{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  background-color:	#FBF3D2;
+  position: relative;
+}
+.syoukai1 h1{
+  color: #FF5F17;
+  font-size: 44px;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  font-family:"Noto Serif JP",serif;
+}
+.syoukai1 .s1{
+  color: #555555;
+}
+
+.syoukai1::before {
+  content: url(tegaki/ue.png);
+  width: auto;
+  position: absolute;
+  top: -100px;
+  left: -50px;
+}
+
+
+.syoukai1::after {
+  content: url(tegaki/sita.png);
+  width: auto;
+  position: absolute;
+  top: 1710px;
+  left: -50px;
+}
+
+.syoukai1 .p1{
+  margin: 30px;
+  font-size: 17px;
+  letter-spacing: 0.05em;
+  line-height: 42px;
+}
+.syoukai1 .s2{
+  font-size: 14px;
+}
+
+ .botan{
+  display: inline-block;
+  border: 1px solid #004b4a;
+  border-radius: 10px;
+  background: #004b4a;
+  padding: 10px 70px;
+  width: 220px;
+  font-size: 25px;
+  color: #FFF;
+}
+ .c01{
+  width: 365px;
+  height: auto;
+  position: absolute;
+  left: 495px;
+  top: 540px;
+}
+
+.karafuru{
+  margin: 160px 243px 0px 243px;
+  position: relative;
+}
+
+.karafuru::before{
+   content: "";
+   background-image:
+   linear-gradient(to right, #FFD700, #FFD700 15px, transparent 15px, transparent 25px,
+                  #3CB371 25px, #3CB371 40px, transparent 40px,transparent 50px),
+   linear-gradient(to right, #FFD700, #FFD700 15px, transparent 15px, transparent 25px,
+                  #3CB371 25px, #3CB371 40px, transparent 40px, transparent 50px),
+   linear-gradient(to bottom, #FFD700, #FFD700 15px, transparent 15px, transparent 25px,
+                  #3CB371 25px, #3CB371 40px, transparent 40px,transparent 50px),
+   linear-gradient(to bottom, #FFD700, #FFD700 15px, transparent 15px, transparent 25px,
+                  #3CB371 25px, #3CB371 40px, transparent 40px,transparent 50px);
+   border-radius: 15px;
+   background-size: 50px 15px, 50px 15px, 15px 50px, 15px 50px;
+   background-position: left top, left bottom, left top, right top;
+   background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   pointer-events: none;
+}
+
+.h2_1{
+  height: auto;
+  width: auto;
+  position: relative;
+  top:45px;
+}
+
+.h2_2{
+  height: 310px;
+  width: auto;
+  position: relative;
+  top: 60px;
+}
+
+.h2_3{
+  height: 90px;
+  width: auto;
+  position: relative;
+  top: 65px;
+}
+
+.h2_4,.h2_5{
+  height: 260px;
+  width: auto;
+}
+
+.h2_6{
+  height: auto;
+  width: 260px;
+}
+
+
+
+.yuzu,.ginger{
+  margin: 80px 50px;
+  display: inline-block;
+}
+
+
+.karamu ul{
+  list-style: none;
+  margin-bottom: 20px;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  color: #3CB371;
+}
+
+.karamu li{
+  text-align: left;
+  position: relative;
+  top: 0px;
+  left: -20px;
+}
+
+.karamu li::before{
+   content: '';
+   display: block;
+   position: absolute;
+   top: .5em;
+   left: -15px;
+   width: 10px;
+   height: 5px;
+   border-left: 3px solid #FFD700;
+   border-bottom: 3px solid #FFD700;
+   transform: rotate(-45deg);
+}
+/* -------------------------------------- */
+.syoukai2{
+  background-color: #FFD700;
+  width: auto;
+  height: 1200px;
+}
+
+.S2_1{ /*こんな方*/
+  width: 400px;
+  height: auto;
+  position: absolute;
+  top: 2600px;
+  left: 480px;
+}
+
+.S2_3{ /*浴槽女性*/
+  width: auto;
+  height: 385px;
+  position: absolute;
+  top: 2700px;
+  left: 570px;
+}
+
+.S2_2{ /*3ケの吹き出し画*/
+  width: auto;
+  height: 370px;
+  position: absolute;
+  top: 2710px;
+  left: 355px;
+}
+
+.S2_4{ /*製品イメージ*/
+  width: auto;
+  height: 315px;
+  position: absolute;
+  top: 3200px;
+  left: 730px;
+}
+
+.S2_5{ /*3行文字*/
+  width: 645px;
+  height: auto;
+  position: absolute;
+  top: 3120px;
+  left: 260px;
+}
+
+.S2_6{ /*商品ページ*/
+  width: auto;
+  height: 55px;
+  position: absolute;
+  top: 3550px;
+  left: 500px;
+}
+/* -------------------------------------- */
+.syoukai3{
+  text-align: center;
+  background-color: #FBF3D2;
+  width: auto;
+  height: 450px;
+  position: relative;
+}
+.syoukai3::before {
+  content: url(tegaki/ue.png);
+  width: auto;
+  position: absolute;
+  top: -100px;
+  left: -50px;
+}
+
+.syoukai3::after {
+  content: url(tegaki/sita.png);
+  width: auto;
+  position: absolute;
+  top: 450px;
+  left: -50px;
+}
+
+.orenge_{
+   padding: 0.5em 1em;
+   background: #FFDEAD;
+   border: 7px dotted #FFD700;
+   position: absolute;
+   top: 50px;
+   left: 280px;
+}
+
+
+.S3_1{
+  width: 750px;
+  height: auto;
+  margin-top: 10px;
+}
+
+h3{
+  color: #555555;
+  margin: 35px;
+}
+
+.bun1{
+  color: #333333;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+.bun2{
+  color: #333333;
+  font-size: 13px;
+  margin-bottom: 35px;
+}
+
+.S3_2{
+  width: 390px;
+  height: auto;
+  margin-bottom: 10px;
+}
+/* -------------------------------------- */
+footer{
+  background-color: #FFD700;
+  text-align: center;
+}
+
+.face,.ins,.kne,.twi{
+  width: 220px;
+  height: auto;
+  border: 1px solid #CCCCCC;
+  background-color: #FFF;
+}
+
+footer ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 75px;
+  margin-right: 180px;
+  margin-left: 180px;
+}
+
+.puraibasi{
+  margin: 20px;
+}
+.cop{
+  padding-bottom: 50px;
+}
